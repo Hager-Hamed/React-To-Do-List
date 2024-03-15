@@ -1,0 +1,60 @@
+body {
+  background-color: cadetblue;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+input,
+button {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  width: 50%;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.App {
+  border: 1px solid #3d3d3d;
+  margin: 80px 30px;
+  padding: 25px 15px;
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.to-do-container ul li {
+  width: 170px;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trash {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
